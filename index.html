@@ -256,17 +256,17 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
         // 1.1 PROFILE & BRANDING VARIABLES (REQUIRED)
         const profileData = {
             studentName: "Trenton J Wadman",
-            tagline: "Future-Focused Problem Solver in Digital Media",
+            tagline: "The Next Wave of Marketing: Innovation, Empathy, and Execution",
             currentYear: "Freshman", // Freshman, Sophomore, Junior, Senior
             major: "Marketing",
-            gpa: N/A,
+            gpa: 3.8,
             impactScoreMultiplier: 10, // Adjusts how much projects/awards count towards total impact
             
             // --- INTRODUCTION & BRANDING FIELDS ---
             photoUrl: "https://placehold.co/150x150/BA0C2F/FFFFFF/png?text=RILEY+C", // Replace with a URL to a professional headshot
             logoUrl: "https://placehold.co/40x40/BA0C2F/FFFFFF.png?text=BSU", // URL for your school logo or personal brand icon
-            personalBio: "I am a freshman driven by the intersection of computational thinking and creative design. My academic focus is on building scalable, user-centric web applications and leveraging data analysis to inform design decisions. I believe in continuous learning and applying classroom theory to immediate, impactful real-world challenges.",
-            missionStatement: "To build digital solutions that simplify complex processes and empower small businesses, leveraging Python, front-end frameworks, and a user-first design approach.",
+            personalBio: "I am a driven Marketing Major focused on the fusion of data science and creative strategy. My passion lies in translating computational insights from data analysis to front end development into impactful, user centric campaigns that drive measurable growth. I believe effective marketing is rooted in continuous learning, leveraging Python and web frameworks to build scalable digital solutions and address real world business challenges.",
+            missionStatement: "To drive measurable growth and connect brands with their audience through data-informed strategies, creative digital storytelling, and a deep understanding of market dynamics.",
         };
 
         /*
@@ -279,49 +279,51 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 
         // 1.2 ACADEMICS (REQUIRED: Add relevant classes)
         const academicData = [
-            { name: "Intro to Python Programming", grade: "A", semester: "Fall 2025", relevance: "Code" },
-            { name: "Digital Design Principles", grade: "A-", semester: "Fall 2025", relevance: "Design" },
-            { name: "Calculus I", grade: "B+", semester: "Fall 2025", relevance: "Foundational" },
-            { name: "Web Development (Front-End)", grade: "A", semester: "Fall 2025", relevance: "Code" },
-            { name: "Data Structures", grade: "In Progress", semester: "Fall 2025", relevance: "Code" },
+            { name: "Beginning Spanish 2", grade: "A", semester: "Currently Enrolled", relevance: "Foreign Language" },
+            { name: "Business Information Systems", grade: "A", semester: "Currently Enrolled", relevance: "Code" },
+            { name: "Elementary Microeconomics", grade: "B+", semester: "Currently Enrolled", relevance: "Econ" },
+            { name: "Introduction to the Miller College of Business", grade: "A", semester: "Currently Enrolled", relevance: "MCOB" },
+            { name: "Our Lives, Our Labor", grade: "A", semester: "Currently Enrolled", relevance: "Honr" },
+            { name: "Personal Finance for Fiscal Wellness", grade: "A", semester: "Currently Enrolled", relevance: "Fin" },
+            { name: "Rhetoric and Writing", grade: "B", semester: "Currently Enrolled", relevance: "Eng" },
         ];
 
         // 1.3 PROJECTS (REQUIRED: Follow C-S-R format)
         const projectData = [
             {
-                title: "Local Charity Website Redesign",
+                title: "ISOM 210 - PBL 1: Analysis — The Blueprint (System Requirements)",
                 category: "Design",
-                challenge: "The local Humane Society site was not mobile-friendly, resulting in high bounce rates on the donation page.",
-                solution: "Designed and implemented a responsive, user-centered interface using HTML, Tailwind CSS, and vanilla JS.",
-                result: "Increased mobile conversion rate by **15%** and reduced bounce rate by **22%** in the first month.",
-                link: "https://github.com/riley/charity-site"
+                challenge: "As a team of student analysts, you will partner with a client (e.g., Cardinal Books) to surface pain points and opportunities.",
+                solution: "You’ll document the current workflow, propose an improved future state, and translate findings into a prioritized system requirements list.",
+                result: "Assess the current workflow (As-Is process), Identify inefficiencies, risks, and improvement opportunities, Design the improved workflow (To-Be process), and Document functional and technical requirements.",  
+                link: "file:///C:/Users/TjHam/Downloads/ISOM%20GROUP%20PROJECT%20Deliverable%20(1).pdf"
             },
             {
-                title: "Twitter Sentiment Analyzer (Academic)",
+                title: "ISOM210 – PBL 2: Web 1.0 — The Bound Volume (Digital Shelf)",
                 category: "Code",
-                challenge: "Required to analyze public sentiment towards a political topic using programming tools for a final project.",
-                solution: "Used Python (Pandas/Matplotlib) to clean data and built a basic Naive Bayes classification model.",
-                result: "Achieved **82%** accuracy in classifying positive/negative tweets, earning the highest grade in the class (A).",
+                challenge: "Transform your approved To-Be Flow Chart from PBL 1 into a static informational website (Web 1.0 Style).",
+                solution: "Communicate a clear purpose, audience, and organized navigation using semantic HTML and shared CSS. Host publicly on GitHub Pages and document your approach.",
+                result: "Hosted Website URL (publicly viewable), Screenshots of all Site Pages (Home, content pages, Contact, etc.), AI Use Note (how AI assisted, what you verified), ISOM PBL 2: Web 1.0 — The Bound Volume (Digital Shelf) (GitHub Pages Link), and ISOM 210: Personal Portfolio Project Link (GitHub Pages Link)",
                 link: ""
             },
             {
-                title: "3D Planet Rendering",
+                title: "ISOM 210: Personal Portfolio Project",
                 category: "Code/Personal",
-                challenge: "A personal challenge to learn a new visualization library (three.js) over winter break.",
-                solution: "Created a simple animated model of a rotating planet using three.js, demonstrating coordinate system mastery.",
-                result: "Successfully rendered complex geometry and optimized the animation loop to maintain **60 FPS** on desktop browsers.",
-                link: "https://riley.github.io/planet-render"
+                challenge: "This submission is for the Personal Portfolio you created, now updated to showcase your experience and academic journey, specifically emphasizing artifacts from your ISOM 210 coursework.",
+                solution: "The goal is to design and deploy a modern, static website that serves as a professional introduction and a curated shelf for your best work.",
+                result: "Personal portfolio to enhance yourself and show wmployers all in one.",
+                link: "In Progress"
             }
         ];
 
         // 1.4 EXPERIENCE & AWARDS (REQUIRED)
         const recognitionData = {
             experience: [
-                { title: "Team Lead, Ball State Hackathon", type: "Extracurricular", duration: "Oct 2025", detail: "Led a four-person team to develop a functional prototype in **24 hours**." },
-                { title: "Library Volunteer (IT Support)", type: "Community Service", duration: "Jan - May 2025", detail: "Provided **40+ hours** of technical support for public computers and staff devices." },
+                { title: "GPA Lead, 2024 New Palestine Football State Champion", type: "Extracurricular", duration: "Dec 2024", detail: "Led the 4A 2024 New Palestine football state championship team with the highest GPA." },
+                { title: "Church Volunteer (IT Support)", type: "Community Service", duration: "October 2025", detail: "Provided 20+ hours of community service through a food drive helping feed families for the upcoming holidays." },
             ],
             awards: [
-                { title: "Dean's List", duration: "Fall 2024", detail: "Achieved a **3.8 GPA**." },
+                { title: "Honors Student", duration: "Fall 2025", detail: "Earned a spot and enrolled into the honors program at Ball State University." },
                 { title: "Rising Star Freshman Award", duration: "Spring 2025", detail: "Recognized by the CS department for high academic achievement and engagement." },
             ]
         };
@@ -576,4 +578,5 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     </script>
 </body>
 </html>
+
 
